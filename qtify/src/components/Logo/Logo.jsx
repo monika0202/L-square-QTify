@@ -1,8 +1,7 @@
 import React from "react";
-import logo from "../../assets/logo.png";
 
 const Logo = () => {
-  return <img src={logo} alt="QTify Logo" height="40" />;
+  return <h2>QTify</h2>;
 };
 
 export default Logo;

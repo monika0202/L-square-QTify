@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.css";
-import headphones from "../../assets/headphones.png";
+
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
         <h1>100 Thousand Songs, ad-free</h1>
         <h1>Over thousands podcast episodes</h1>
       </div>
-      <img src={headphones} alt="Headphones" />
+      
     </div>
   );
 };
